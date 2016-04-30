@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import urllib
+import os
 
 '''
 抓取指定的页面并copy到本地
@@ -16,6 +17,9 @@ def callbackfunc(blocknum, blocksize, totalsize):
 	if percent > 100:
 		percent = 100
 	print "%.2f%%"% percent
+
+#需要在当前目录下创建html目录
+#os.mkdir('html')
 
 #html页面
 # url = 'http://www.sina.com.cn'
