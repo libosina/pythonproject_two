@@ -4,3 +4,6 @@ test zvzzvz
 
 
 1
+
+url = https://github.com/libosina/pythonproject_two.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
