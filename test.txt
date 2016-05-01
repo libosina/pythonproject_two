@@ -7,3 +7,7 @@ test zvzzvz
 
 url = https://github.com/libosina/pythonproject_two.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+
+
++--------------------------------+
+¸üĞÂÃÜÂë
